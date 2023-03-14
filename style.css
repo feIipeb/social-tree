@@ -1,0 +1,56 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  background-color: #FAF7FD;
+}
+
+#main {
+  width: 300px;
+  margin: 0 auto;
+}
+
+div {
+  border: red 1px solid;
+}
+
+#icon-fav {
+  text-align: center;
+}
+
+.icon {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  width: 50px;
+  align-items: center;
+  border: #BB99DD solid 2px;
+  padding: 5px 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #BB99DD;
+  font-family: Poppins;
+  text-align: center;
+}
+
+#footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.icon-footer {
+  margin: auto 10px;
+}
