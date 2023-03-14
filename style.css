@@ -9,7 +9,7 @@ body {
 
 #main {
   width: 300px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 div {
@@ -21,9 +21,11 @@ div {
 }
 
 .icon {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
+  border: #BB99DD solid 2px ;
+  padding: 5px;
 }
 
 #buttons {
@@ -39,7 +41,14 @@ div {
   padding: 5px 80px;
 }
 
+p {
+  font-weight: 300;
+  font-family: Poopins;
+  color: #BB99DD;
+}
+
 a {
+  font-weight: 600;
   text-decoration: none;
   color: #BB99DD;
   font-family: Poppins;
