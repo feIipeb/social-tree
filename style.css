@@ -8,12 +8,8 @@ body {
 }
 
 #main {
-  width: 300px;
+  width: 400px;
   margin: 100px auto;
-}
-
-div {
-  border: red 1px solid;
 }
 
 #icon-fav {
@@ -28,6 +24,12 @@ div {
   padding: 5px;
 }
 
+p {
+  font-weight: 300;
+  font-family: Poopins;
+  color: #BB99DD;
+}
+
 #buttons {
   text-align: center;
 }
@@ -35,16 +37,19 @@ div {
 .button {
   display: block;
   margin: 10px auto;
-  width: 50px;
+  width: 100px;
   align-items: center;
   border: #BB99DD solid 2px;
   padding: 5px 80px;
 }
 
-p {
-  font-weight: 300;
-  font-family: Poopins;
-  color: #BB99DD;
+#footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.icon-footer {
+  margin: auto 15px;
 }
 
 a {
@@ -53,13 +58,4 @@ a {
   color: #BB99DD;
   font-family: Poppins;
   text-align: center;
-}
-
-#footer {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.icon-footer {
-  margin: auto 10px;
 }
